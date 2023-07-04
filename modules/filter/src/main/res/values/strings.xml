@@ -1,0 +1,12 @@
+<resources>
+    <string name="title_activity_filter">Filters</string>
+    <string name="import_filters">Import filters</string>
+    <string name="export_filters">Export filters</string>
+    <string name="create">Create</string>
+    <string name="create_filter">Create Filter</string>
+    <string name="filter_url">Filter URL</string>
+    <string name="hide_links">Hide links</string>
+    <string name="display_warning_icon">Display warning icon</string>
+    <string name="save_filter">Save filter</string>
+    <string name="delete">Delete</string>
+</resources>

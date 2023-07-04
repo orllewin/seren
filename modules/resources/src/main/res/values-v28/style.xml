@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="gemtext_header_large" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/oppen_default_title</item>
+        <item name="android:fontWeight">800</item>
+        <item name="android:textFontWeight">800</item>
+        <item name="android:textSize">@dimen/gemtext_h1</item>
+        <item name="android:textColor">@color/titleColour</item>
+    </style>
+</resources>

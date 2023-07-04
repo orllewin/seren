@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/screen_margin"
+    android:layout_marginRight="@dimen/screen_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/def_quarter"
+    android:paddingBottom="@dimen/def_quarter">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/gemtext_text_quote_textview"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/stroke"
+
+        android:paddingLeft="@dimen/default_margin_big"
+        android:paddingRight="@dimen/default_margin_big"
+        android:paddingTop="@dimen/default_margin_big"
+        android:paddingBottom="@dimen/default_margin_big"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineHeight="@dimen/default_line_height"
+        android:background="@drawable/block_background"
+        tools:text="Hello, World!"/>
+
+</RelativeLayout>

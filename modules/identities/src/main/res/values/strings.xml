@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Certificates</string>
+    <string name="create_new_identity">Create new identity</string>
+    <string name="create">Create</string>
+    <string name="identity_needs_a_name">Identity needs a name</string>
+    <string name="identity_cert_missing">Identity is missing a certificate</string>
+    <string name="identity_needs_an_address">An identity needs a Gemini address to belong to</string>
+    <string name="identity_needs_a_gemini_address">The Gemini address must start with gemini://</string>
+    <string name="edit_identity">Edit identity</string>
+    <string name="alias_taken">Alias $s is already being used, change name to continue</string>
+    <string name="gemini_scheme">gemini://</string>
+</resources>

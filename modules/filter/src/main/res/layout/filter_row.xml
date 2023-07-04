@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/filter_layout"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/filter_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Some asshole's url"
+        android:layout_toStartOf="@+id/filter_overflow"
+        android:textColor="@color/vibrant_stroke"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/filter_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hide"
+        android:textSize="12sp"
+        android:layout_toStartOf="@+id/filter_overflow"
+        android:layout_below="@+id/filter_url"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/filter_overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/vector_overflow" />
+
+</RelativeLayout>

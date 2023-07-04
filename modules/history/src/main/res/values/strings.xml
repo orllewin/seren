@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">History</string>
+    <string name="history_heading">Visited addresses from the last 30 days:</string>
+</resources>

@@ -1,0 +1,139 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/general">
+
+        <SwitchPreferenceCompat
+            app:key="home_mode"
+            app:title="Home Mode"
+            app:defaultValue="false"
+            app:disableDependentsState="false"
+            app:summaryOff="Show local Gemtext"
+            app:summaryOn="Use remote capsule"/>
+
+        <EditTextPreference
+            app:key="home_capsule"
+            app:title="@string/home_gemini_address"
+            app:useSimpleSummaryProvider="true"
+            app:dependency="home_mode"/>
+
+        <Preference
+            app:key="home_capsule_editor"
+            app:title="Edit Home Gemtext" />
+
+        <SwitchPreferenceCompat
+            app:key="bypass_splash_screen"
+            app:title="@string/bypass_splash_screen"
+            app:summaryOff="@string/bypass_splash_screen_summary_off"
+            app:summaryOn="@string/bypass_splash_screen_summary_on"/>
+
+        <SwitchPreferenceCompat
+            app:key="@string/prefs_inline_link_icons"
+            app:summaryOff="@string/inline_link_icons_summary_off"
+            app:summaryOn="@string/inline_link_icons_summary_on"
+            app:title="@string/inline_link_icons" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/accessibility">
+        <SwitchPreferenceCompat
+            app:key="hide_ascii_art"
+            app:title="@string/remove_ascii_art"
+            app:summaryOff="@string/remove_ascii_art_summary_off"
+            app:summaryOn="@string/remove_ascii_art_summary_on"/>
+
+        <SwitchPreferenceCompat
+            app:key="remove_emoji"
+            app:title="@string/remove_emoji"
+            app:summaryOff="@string/remove_emoji_summary_off"
+            app:summaryOn="@string/remove_emoji_summary_on"/>
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="remap_bold_unicode"-->
+<!--            app:title="@string/remap_bold_unicode"-->
+<!--            app:defaultValue="true"-->
+<!--            app:summaryOff="@string/remap_bold_unicode_summary_off"-->
+<!--            app:summaryOn="@string/remap_bold_unicode_summary_on" />-->
+
+        <SwitchPreferenceCompat
+            app:key="@string/prefs_collapse_code_blocks"
+            app:summaryOff="@string/code_blocks_toggle_summary_off"
+            app:summaryOn="@string/code_blocks_toggle_summary_on"
+            app:title="@string/code_blocks_toggle" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/prefs_full_width_buttons"
+            app:summaryOff="@string/full_width_buttons_summary_off"
+            app:summaryOn="@string/full_width_buttons_summary_on"
+            app:title="@string/full_width_buttons" />
+
+        <orllewin.settings.ColourPreference
+            app:key="@string/prefs_button_colour"
+            app:dependency="@string/prefs_full_width_buttons"
+            app:title="@string/button_colour"
+            app:widgetLayout="@layout/prefs_icon" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/theme">
+        <orllewin.settings.ColourPreference
+            app:key="@string/prefs_home_icon_colour"
+            app:title="@string/home_icon_colour"
+            app:widgetLayout="@layout/prefs_icon" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/prefs_h1_accent_coloured"
+            app:summaryOff="@string/h1_accent_coloured_summary_off"
+            app:summaryOn="@string/h1_accent_coloured_summary_on"
+            app:defaultValue="true"
+            app:title="@string/h1_accent_colour" />
+
+        <orllewin.settings.ColourPreference
+            app:key="@string/prefs_background_colour"
+            app:title="@string/background_colour"
+            app:widgetLayout="@layout/prefs_icon" />
+
+        <ListPreference
+            app:key="@string/prefs_sans_headers_3"
+            app:title="@string/header_typeface_title"
+            android:entries="@array/available_header_typefaces"
+            android:defaultValue="google_sans"
+            android:entryValues="@array/available_header_typefaces_values"/>
+
+        <ListPreference
+            app:key="@string/prefs_sans_content_3"
+            app:title="@string/content_typeface_title"
+            android:entries="@array/available_content_typefaces"
+            android:defaultValue="google_sans"
+            android:entryValues="@array/available_content_typefaces_values"/>
+
+        <ListPreference
+            app:key="@string/prefs_experimental_image_mode"
+            app:title="@string/experimental_image_mode"
+            android:entries="@array/experimental_image_modes"
+            android:defaultValue="none"
+            android:entryValues="@array/experimental_image_modes_values"/>
+
+        <orllewin.settings.ColourPreference
+            app:key="@string/prefs_duotone_colour"
+            app:title="@string/duotone_colour"
+            app:widgetLayout="@layout/prefs_icon" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/wellbeing">
+        <Preference
+            android:key="@string/prefs_filter"
+            android:title="@string/filter"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/experimental">
+
+        <SwitchPreferenceCompat
+            app:key="@string/prefs_experimental_autoload_images"
+            app:title="@string/autoload_images"
+            app:summaryOff="@string/autoload_images_summary_off"
+            app:summaryOn="@string/autoload_images_summary_on"
+             />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- SEARCH -->
+    <group android:id="@+id/search" >
+        <item android:id="@+id/menu_action_search"
+            android:title="@string/search" />
+    </group>
+
+    <!-- Current Page Actions -->
+    <group android:id="@+id/current_page" >
+        <item android:id="@+id/menu_action_add_bookmark"
+            android:title="@string/add_bookmark" />
+        <item android:id="@+id/menu_action_view_source"
+            android:title="@string/view_source" />
+        <item android:id="@+id/menu_action_share"
+            android:title="@string/share" />
+    </group>
+
+    <!-- Global Content -->
+    <group android:id="@+id/global" >
+        <item android:id="@+id/menu_action_bookmarks"
+            android:title="@string/bookmarks" />
+        <item android:id="@+id/menu_action_history"
+            android:title="@string/history" />
+        <item android:id="@+id/menu_action_identities"
+            android:title="@string/identities" />
+    </group>
+
+    <!-- App -->
+    <group android:id="@+id/app" >
+        <item android:id="@+id/menu_action_settings"
+            android:title="@string/settings" />
+        <item android:id="@+id/menu_action_log"
+            android:title="@string/log" />
+        <item android:id="@+id/menu_action_about"
+            android:title="@string/about" />
+    </group>
+</menu>

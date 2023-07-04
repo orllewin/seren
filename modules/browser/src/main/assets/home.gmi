@@ -1,0 +1,22 @@
+## Search
+=> gemini://geminispace.info Gemini Search Engine
+
+## Discovering Content
+=> gemini://warmedal.se/~antenna/ Antenna
+=> gemini://rawtext.club/~sloum/spacewalk.gmi Spacewalk
+=> gemini://gemini.circumlunar.space/capcom/ CAPCOM
+=> gemini://calcuode.com/gmisub-aggregate.gmi Calcuode gmisub
+
+## App Navigation
+=> seren://bookmarks Bookmarks
+=> seren://history History
+=> seren://identities Identities
+=> seren://settings Settings
+
+### About
+A Gemini browser from Orllewin
+
+=> gemini://seren.orllewin.uk/ Oppen's Capsule
+
+=> https://en.wikipedia.org/wiki/Gemini_(protocol) Gemini (protocol) Wikipedia
+=> https://orllewin.uk orllewin.uk

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="available_header_typefaces">
+        <item>System Default</item>
+        <item>Google Sans</item>
+        <item>Inter Black</item>
+        <item>League Gothic Italic</item>
+
+    </string-array>
+
+    <string-array name="available_header_typefaces_values">
+        <item>default</item>
+        <item>google_sans</item>
+        <item>inter_black</item>
+        <item>league_gothic_italic</item>
+    </string-array>
+
+    <string-array name="available_content_typefaces">
+        <item>System Default</item>
+        <item>Google Sans</item>
+        <item>Inter Regular</item>
+    </string-array>
+
+    <string-array name="available_content_typefaces_values">
+        <item>default</item>
+        <item>google_sans</item>
+        <item>inter_regular</item>
+    </string-array>
+
+    <string-array name="experimental_image_modes">
+        <item>None</item>
+        <item>Monochrome</item>
+        <item>Duotone</item>
+    </string-array>
+
+    <string-array name="experimental_image_modes_values">
+        <item>none</item>
+        <item>monochrome</item>
+        <item>duotone</item>
+    </string-array>
+</resources>

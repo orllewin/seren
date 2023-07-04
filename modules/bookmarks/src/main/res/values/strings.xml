@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bookmarks</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="name">Name</string>
+    <string name="gemini_uri">Gemini URL</string>
+    <string name="save_bookmark">Save Bookmark</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="import_bookmarks">Import bookmarks</string>
+    <string name="export_bookmarks">Export bookmarks</string>
+</resources>

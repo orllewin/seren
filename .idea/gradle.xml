@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/modules" />
+            <option value="$PROJECT_DIR$/modules/bookmarks" />
+            <option value="$PROJECT_DIR$/modules/browser" />
+            <option value="$PROJECT_DIR$/modules/certifikat" />
+            <option value="$PROJECT_DIR$/modules/editor" />
+            <option value="$PROJECT_DIR$/modules/extensions" />
+            <option value="$PROJECT_DIR$/modules/file_io" />
+            <option value="$PROJECT_DIR$/modules/filter" />
+            <option value="$PROJECT_DIR$/modules/gemini" />
+            <option value="$PROJECT_DIR$/modules/gemtext" />
+            <option value="$PROJECT_DIR$/modules/graphics" />
+            <option value="$PROJECT_DIR$/modules/history" />
+            <option value="$PROJECT_DIR$/modules/identities" />
+            <option value="$PROJECT_DIR$/modules/imageviewer" />
+            <option value="$PROJECT_DIR$/modules/logger" />
+            <option value="$PROJECT_DIR$/modules/resources" />
+            <option value="$PROJECT_DIR$/modules/settings" />
+            <option value="$PROJECT_DIR$/modules/skiss" />
+            <option value="$PROJECT_DIR$/modules/tls" />
+            <option value="$PROJECT_DIR$/modules/viewer" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="orllewin.imageviewer">
+
+    <application>
+        <activity android:name=".ImageViewerActivity"
+            android:theme="@style/ResourcesMainTheme"/>
+    </application>
+
+</manifest>

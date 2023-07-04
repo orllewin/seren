@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nothing_to_see_here">Nothing to see here</string>
+    <string name="save_identity">Save identity</string>
+    <string name="show_code">Show code</string>
+    <string name="hide_code">Hide code</string>
+
+    <string name="app_name">settings</string>
+
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="none">None</string>
+    <string name="monochrome">Monochrome</string>
+    <string name="duotone">Duotone</string>
+
+    <!-- Preferences keys -->
+    <string name="prefs_collapse_code_blocks" translatable="false">collapse_code_blocks</string>
+    <string name="prefs_inline_link_icons" translatable="false">inline_link_icons</string>
+    <string name="prefs_full_width_buttons" translatable="false">full_width_buttons</string>
+    <string name="prefs_h1_accent_coloured" translatable="false">h1_accent_coloured</string>
+    <string name="prefs_background_colour" translatable="false">screen_background_colour</string>
+    <string name="prefs_duotone_colour" translatable="false">duotone_colour</string>
+    <string name="prefs_filter" translatable="false">filter</string>
+    <string name="prefs_home_icon_colour" translatable="false">home_icon_colour</string>
+    <string name="prefs_button_colour" translatable="false">button_colour</string>
+    <string name="prefs_theme_day" translatable="false">prefs_theme_day</string>
+    <string name="prefs_theme_night" translatable="false">prefs_theme_night</string>
+    <string name="prefs_theme_system" translatable="false">prefs_theme_system</string>
+    <string name="prefs_sans_headers_2" translatable="false">prefs_sans_headers_2</string>
+    <string name="prefs_sans_content_2" translatable="false">prefs_sans_content_2</string>
+    <string name="prefs_sans_headers_3" translatable="false">prefs_sans_headers_3</string>
+    <string name="prefs_sans_content_3" translatable="false">prefs_sans_content_3</string>
+    <string name="prefs_theme_mode" translatable="false">prefs_theme_mode</string>
+    <string name="prefs_experimental_image_mode" translatable="false">prefs_experimental_image_mode</string>
+    <string name="prefs_experimental_autoload_images" translatable="false">prefs_experimental_autoload_images</string>
+
+    <string name="typeface_sans_serif">Sans-serif</string>
+    <string name="typeface_google_sans">Google Sans</string>
+    <string name="typeface_league_gothic_italic">League Gothic Italic</string>
+    <string name="typeface_inter_black">Inter Black</string>
+    <string name="typeface_inter_light">Inter Light</string>
+    <string name="typeface_inter_regular">Inter Regular</string>
+    <string name="typeface_serif">Serif</string>
+
+    <string name="open_in_ariane">Open in Ariane</string>
+    <string name="open_in_new_tab">Open in new tab</string>
+    <string name="copy_link">Copy link</string>
+    <string name="add_to_filters">Add to filter list</string>
+    <string name="main_input_hint">Enter search term or gemini:// address</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="view_source">View source</string>
+    <string name="edit_in_lander">Edit in Lander</string>
+    <string name="upload">Upload</string>
+    <string name="about">About</string>
+    <string name="search_hint">Enter search term</string>
+    <string name="input">Input</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="identity_required">Identity Required</string>
+    <string name="set_identity">Set identity</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="log">Log</string>
+    <string name="home">Home</string>
+    <string name="general">General</string>
+    <string name="home_gemini_address">Home Gemini Address</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="experimental">Experimental</string>
+    <string name="wellbeing">Wellbeing</string>
+
+    <string name="monochrome_images_title">Monochrome images</string>
+    <string name="monochrome_images_summary_on">Images are greyscale</string>
+    <string name="monochrome_images_summary_off">Image colour is untouched</string>
+
+    <string name="duotone_images_title">Duotone images</string>
+    <string name="duotone_images_summary_on">Images are duotone</string>
+    <string name="duotone_images_summary_off">Image colour is untouched</string>
+
+    <string name="header_typeface_title">Title typeface</string>
+    <string name="header_typeface_summary_on">Titles are rendered in sans serif</string>
+    <string name="header_typeface_summary_off">Titles are rendered in serif</string>
+
+    <string name="content_typeface_title">Content typeface</string>
+    <string name="content_typeface_summary_on">Content is rendered in sans serif</string>
+    <string name="content_typeface_summary_off">Content is rendered in serif</string>
+
+    <string name="experimental_image_mode">Image Mode</string>
+
+    <string name="bypass_splash_screen">Bypass Splash screen</string>
+    <string name="bypass_splash_screen_summary_on">Skip home capsule pre-loading</string>
+    <string name="bypass_splash_screen_summary_off">Preload home capsule</string>
+
+    <string name="remove_ascii_art">Hide ASCII art (Experimental)</string>
+    <string name="remove_ascii_art_summary_on">Code blocks that look like ASCII art will be removed from view</string>
+    <string name="remove_ascii_art_summary_off">Do not hide ASCII art code blocks</string>
+
+    <string name="remove_emoji">Remove Emoji (Experimental)</string>
+    <string name="remove_emoji_summary_on">Emoji will be removed from Gemtext</string>
+    <string name="remove_emoji_summary_off">Emoji will be left alone</string>
+
+    <string name="remap_bold_unicode">Remap Bold Unicode Characters</string>
+    <string name="remap_bold_unicode_summary_on">Mathematical unicode misused to inline bold text will be remapped to standard characters</string>
+    <string name="remap_bold_unicode_summary_off">Mathematical unicode will be left untouched</string>
+
+    <string name="code_blocks_toggle">Code block view toggle</string>
+    <string name="code_blocks_toggle_summary_on">Code will be hidden initially with a \'Show code\' toggle button</string>
+    <string name="code_blocks_toggle_summary_off">Code will be rendered normally</string>
+
+    <string name="inline_link_icons">Inline link icons</string>
+    <string name="inline_link_icons_summary_on">Links to web sites and images will show a small inline icon</string>
+    <string name="inline_link_icons_summary_off">Links to web sites and images will display the same as Gemini links</string>
+
+    <string name="autoload_images">Automatically load images</string>
+    <string name="autoload_images_summary_on">Images on the same server as the gemtext will be loaded inline automatically</string>
+    <string name="autoload_images_summary_off">Images will not load automatically</string>
+
+
+    <string name="h1_accent_colour">Large title accent colour</string>
+    <string name="full_width_buttons">Full width buttons</string>
+    <string name="follow_system">Follow system</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="light_theme">Light theme</string>
+    <string name="full_width_buttons_summary_on">Links will display as large screen-width buttons</string>
+    <string name="full_width_buttons_summary_off">Links display as underlined text</string>
+    <string name="h1_accent_coloured_summary_on">Large titles will use the accent colour</string>
+    <string name="h1_accent_coloured_summary_off">Large titles will use default text colour</string>
+    <string name="theme">Theme</string>
+    <string name="background_colour">Background colour</string>
+    <string name="duotone_colour">Duotone colour</string>
+    <string name="filter">Filter</string>
+    <string name="home_icon_colour">Accent colour</string>
+    <string name="button_colour">Button colour</string>
+    <string name="apply">Apply</string>
+
+    <!-- History -->
+    <string name="clear_cache">Clear runtime cache</string>
+    <string name="history">History</string>
+    <string name="clear_history">Clear history</string>
+    <string name="history_cleared">History cleared</string>
+
+    <string name="identities">Identities</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks">Bookmarks</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="name">Name</string>
+    <string name="gemini_uri">Gemini URL</string>
+    <string name="import_bookmarks">Import bookmarks</string>
+    <string name="export_bookmarks">Export bookmarks</string>
+    <string name="export">Export</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="move_down">Move down</string>
+    <string name="move_up">Move up</string>
+    <string name="bookmarks_empty">You don\'t have any bookmarks yet</string>
+
+    <!-- About Dialog -->
+    <string name="about_body">Ariane: Gemini protocol client from Öppenlab</string>
+    <string name="copyright">Copyright © 2020 – 2021 Öppenlab</string>
+    <string name="about_deja_vu_sans">Code blocks are rendered using DejaVu Sans Mono:\n\nCopyright © 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.\n\nSome included glyphs, imported from Arev Fonts:\n\nCopyright © 2006 by Tavmjong Bah. All Rights Reserved.</string>
+    <string name="about_client_cert_icon">Client certificate icon is \'shield key\' by Andrew from the Noun Project</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="create_identity">Create identity</string>
+    <string name="use_on_entire_domain">Use on entire domain</string>
+    <string name="use_on_this_url_only">Use on this URL only</string>
+    <string name="unassigned">Unassigned</string>
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+    <string name="defaultt">Default</string>
+    <string name="ok">Okay</string>
+</resources>

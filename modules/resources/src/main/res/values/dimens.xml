@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="def_double">32dp</dimen>
+    <dimen name="def_large">24dp</dimen>
+    <dimen name="def">16dp</dimen>
+    <dimen name="def_half">8dp</dimen>
+    <dimen name="def_quarter">4dp</dimen>
+    <dimen name="text_title">22sp</dimen>
+
+    <dimen name="gemtext_h1">36sp</dimen>
+    <dimen name="resources_default_padding">16dp</dimen>
+    <dimen name="resources_default_content_text_size">16sp</dimen>
+</resources>

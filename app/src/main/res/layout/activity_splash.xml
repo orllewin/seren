@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <orllewin.skiss.SkissView
+        android:id="@+id/skiss_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/seren_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingStart="16dp"
+        android:src="@drawable/vector_seren" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/version_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seren_logo"
+        android:paddingStart="16dp"
+        tools:text="1.2.3.4.5"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/orllewin_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="24dp"
+        android:src="@drawable/vector_orllewin_logo" />
+
+</RelativeLayout>
